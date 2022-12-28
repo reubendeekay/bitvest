@@ -21,10 +21,10 @@ const Banner = () => {
         <BannerContent>
           <Fade up>
             <DiscountLabel>
-              <Text className="discountAmount" content="25% Discount" />
+              <Text className="discountAmount" content="25% Returns" />
               <Text
                 className="discountText"
-                content="on every first project "
+                content="on every investment package "
               />
             </DiscountLabel>
           </Fade>
@@ -39,11 +39,23 @@ const Banner = () => {
           </Fade>
           <Fade up delay={300}>
             <ButtonGroup>
-              <Button className="primary" title="INVEST" />
+              <Button
+                className="primary"
+                title="INVEST"
+                onClick={() => {
+                  //Scroll to the invest section
+                  document
+                    .getElementById("key-features")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              />
               <Button
                 className="text"
                 variant="textButton"
                 title="WHITE PAPER"
+                onClick={() =>
+                  window.open("https://bitvesttraders.com/doc/bitvest.pdf")
+                }
               />
             </ButtonGroup>
           </Fade>
