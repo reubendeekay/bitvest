@@ -96,7 +96,7 @@ const DepositPage = ({ amount }) => {
               </h1>
             </div>
             {data.map((item, index) => (
-              <div className="mx-20 my-2 mb-10 ">
+              <div key={item.number} className="mx-20 my-2 mb-10 ">
                 <h1 className="text-lg text-white uppercase font-semibold mb-3">
                   {item.country}
                 </h1>
