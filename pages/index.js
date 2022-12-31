@@ -20,9 +20,18 @@ import GlobalStyle, {
   CryptoWrapper,
   ContentWrapper,
 } from "../components/cryptoModern.style";
+import React from "react";
+import LoadingScreen from "./loading";
 
 const CryptoModern = () => {
-  return (
+  const [isMounted, setIsMounted] = React.useState(false);
+  React.useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  return !isMounted ? (
+    <LoadingScreen />
+  ) : (
     <ThemeProvider theme={theme}>
       <>
         <Head>
