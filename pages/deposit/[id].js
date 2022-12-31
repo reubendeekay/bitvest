@@ -45,21 +45,33 @@ const DepositPage = ({ amount }) => {
   const data = [
     {
       country: "Tanzania",
-      number: "+255748621497",
-      carrier: "Vodacom",
-      name: "SEMLBEYO OLEMELAU LAIZER",
+      number: "+254736863812",
+      carrier: "MPesa",
+      name: "ALEX MUTWIRI",
     },
     {
       country: "Kenya",
-      number: "+254 722 000 000",
-      carrier: "Safaricom",
-      name: "AURA INVESTMENTS LTD",
+      number: "+254736863812",
+      carrier: "MPesa",
+      name: "ALEX MUTWIRI",
     },
     {
       country: "Uganda",
-      number: "+256 772 000 000",
-      carrier: "Airtel",
-      name: "AURA INVESTMENTS LTD",
+      number: "+254736863812",
+      carrier: "MPesa",
+      name: "ALEX MUTWIRI",
+    },
+    {
+      country: "Zambia",
+      number: "+254736863812",
+      carrier: "MPesa",
+      name: "ALEX MUTWIRI",
+    },
+    {
+      country: "Malawi",
+      number: "+254736863812",
+      carrier: "MPesa",
+      name: "ALEX MUTWIRI",
     },
   ];
   return (
