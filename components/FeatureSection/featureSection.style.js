@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const FeatureSectionWrapper = styled.section`
   padding: 80px 0 180px 0;
@@ -29,7 +29,7 @@ const FeatureSectionWrapper = styled.section`
       background-image: linear-gradient(
         to bottom,
         transparent 50%,
-        rgba(255, 255, 255, 0.031)
+        rgba(9, 81, 121, 1)
       );
     }
     @media (max-width: 500px) {

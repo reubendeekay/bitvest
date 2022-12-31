@@ -27,6 +27,10 @@ const DepositPage = ({ amount }) => {
 
     router.push("/");
   };
+
+  const backHome = () => {
+    router.push("/");
+  };
   const handleCancel = () => {
     console.log("cancel");
     toast("Ooops cancelled!!", {
@@ -83,7 +87,9 @@ const DepositPage = ({ amount }) => {
         {/* start app classic landing */}
         <CryptoWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-active">
-            <Navbar />
+            <div onClick={backHome}>
+              <Navbar />
+            </div>
           </Sticky>
           <ContentWrapper>
             <div className="lg:mx-20 mx-5 mt-36 ">
