@@ -86,7 +86,7 @@ const DepositPage = ({ amount }) => {
             <Navbar />
           </Sticky>
           <ContentWrapper>
-            <div className="mx-20 mt-36 ">
+            <div className="lg:mx-20 mx-5 mt-36 ">
               <h1 className="text-white font-bold text-2xl mb-4">
                 PLEASE CONFIRM YOUR DEPOSIT
               </h1>
@@ -96,7 +96,7 @@ const DepositPage = ({ amount }) => {
               </h1>
             </div>
             {data.map((item, index) => (
-              <div key={item.number} className="mx-20 my-2 mb-10 ">
+              <div key={item.number} className="lg:mx-20 mx-5 my-2 mb-10 ">
                 <h1 className="text-lg text-white uppercase font-semibold mb-3">
                   {item.country}
                 </h1>
@@ -114,7 +114,7 @@ const DepositPage = ({ amount }) => {
                 </div>
               </div>
             ))}
-            <div className="mx-20 mt-10 space-y-10">
+            <div className="lg:mx-20 mx-5 mt-10 space-y-10 mb-20">
               <AppTable amount={amount} />
               <ConfirmationTable />
               <div className="flex space-x-10">

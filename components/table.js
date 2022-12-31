@@ -3,7 +3,7 @@ import React from "react";
 
 const AppTable = ({ amount }) => {
   return (
-    <Table className="w-[600px]">
+    <Table className="lg:w-[600px] w-[100%]">
       <Table.Body className="divide-y">
         <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
           <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
