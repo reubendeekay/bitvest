@@ -46,31 +46,31 @@ const DepositPage = ({ amount }) => {
     {
       country: "Tanzania",
       number: "+254736863812",
-      carrier: "MPesa",
+      carrier: "Airtel Money Deposit",
       name: "ALEX MUTWIRI",
     },
     {
       country: "Kenya",
       number: "+254736863812",
-      carrier: "MPesa",
+      carrier: "Airtel Money Deposit",
       name: "ALEX MUTWIRI",
     },
     {
       country: "Uganda",
       number: "+254736863812",
-      carrier: "MPesa",
+      carrier: "Airtel Money Deposit",
       name: "ALEX MUTWIRI",
     },
     {
       country: "Zambia",
       number: "+254736863812",
-      carrier: "MPesa",
+      carrier: "Airtel Money Deposit",
       name: "ALEX MUTWIRI",
     },
     {
       country: "Malawi",
       number: "+254736863812",
-      carrier: "MPesa",
+      carrier: "Airtel Money Deposit",
       name: "ALEX MUTWIRI",
     },
   ];
