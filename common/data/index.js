@@ -53,18 +53,21 @@ export const Features = [
     icon: featureIcon1,
     title: "$100-$1000",
     description: "Bronze Investment",
+    amount: "100",
   },
   {
     id: 2,
     icon: featureIcon2,
     title: "$1000-$10,000",
     description: "Silver Investment.",
+    amount: "1000",
   },
   {
     id: 3,
     icon: featureIcon3,
     title: "$10,000 or More",
     description: "Gold Investment",
+    amount: "10000",
   },
   {
     id: 4,
@@ -72,6 +75,7 @@ export const Features = [
     title: "Secure Transactions",
     description:
       "You can invest in any cryptocurrency available in our catalogue! Switch your investment power.",
+    amount: "100000",
   },
 ];
 
