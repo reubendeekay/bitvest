@@ -43,7 +43,7 @@ const SignIn = () => {
             isLogin ? "350px" : "480px"
           }]`}
         >
-          <div className="h-full sm:w-0 lg:w-1/2 lg:p-24 sm:p-0 bg-[#F8F7F7]">
+          <div className="h-full sm:w-0 lg:w-1/2 lg:p-24 sm:p-0 bg-[#F8F7F7] sm:hidden">
             <Image
               src={LogoImage}
               width={200}
